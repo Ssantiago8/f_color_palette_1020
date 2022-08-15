@@ -8,7 +8,7 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // vamos a usar GetMaterialApp para pdoer usar un diálogo sin context
+    // vamos a usar GetMaterialApp para poder usar un diálogo sin context
     return GetMaterialApp(
       theme: ThemeData(
         brightness: Brightness.light,
